@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">OBDtest</string>
+    <string name="action_settings">Settings</string>
+    <string name="wifi_connect">Enable WiFi</string>
+    <!--<string name="wifi_devices">Search devices</string>-->
+    <string name="getVinNo">Vin</string>
+    <string name="throttlePos">Throttle</string>
+    <string name="currVoltage">Voltage</string>
+    <string name="waterTemp">WaterTemp</string>
+    <string name="rpm">RPM</string>
+
+
+    <string name="timingAdvance">TimeAdv</string>
+    <string name="load">EngLoad</string>
+    <string name="absLoad">absLoad</string>
+
+    <string name="maf">MAF</string>
+    <string name="lambda">Lambda</string>
+    <string name="fuelType">FuelType</string>
+    <string name="fuelLevel">FuelLevel</string>
+
+    <string name="vehicleSpeed">Speed</string>
+    <string name="location">Location</string>
+    <string name="accelerator">accelerator</string>
+
+    <string name="test">QR Code</string>
+    <string name="logs">Send logs</string>
+    <string name="service">Service</string>
+
+</resources>

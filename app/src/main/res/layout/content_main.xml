@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/result_text1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="@dimen/fab_margin" />
+
+    <TextView
+        android:id="@+id/result_text2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/result_text1"
+        android:layout_marginTop="@dimen/fab_margin" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/result_text3"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_below="@+id/result_text2"-->
+    <!--android:layout_marginTop="@dimen/fab_margin" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/result_text3"-->
+    <!--android:text="Test commands"-->
+    <!--android:textColor="@color/colorPrimary" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/wifi_enable"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/result_text"-->
+    <!--android:text="@string/wifi_connect" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/wifi_search"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/result_text"-->
+    <!--android:text="@string/wifi_devices" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/throttlePos"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/textView1"-->
+    <!--android:layout_toEndOf="@+id/vinNo"-->
+    <!--android:layout_toRightOf="@+id/vinNo"-->
+    <!--android:text="@string/throttlePos" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/currVoltage"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/textView1"-->
+    <!--android:layout_toEndOf="@+id/throttlePos"-->
+    <!--android:layout_toRightOf="@+id/throttlePos"-->
+    <!--android:text="@string/currVoltage" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/waterTemp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/textView1"-->
+    <!--android:layout_toEndOf="@+id/currVoltage"-->
+    <!--android:layout_toRightOf="@+id/currVoltage"-->
+    <!--android:text="@string/waterTemp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/rpm"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/vinNo"-->
+    <!--android:text="@string/rpm" />-->
+    <!--&lt;!&ndash; ==================== more commands for testing ====================== &ndash;&gt;-->
+
+    <!--<Button-->
+    <!--android:id="@+id/timingAdvance"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/vinNo"-->
+    <!--android:layout_toEndOf="@+id/rpm"-->
+    <!--android:layout_toRightOf="@+id/rpm"-->
+    <!--android:text="@string/timingAdvance" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/engineLoad"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/vinNo"-->
+    <!--android:layout_toEndOf="@+id/timingAdvance"-->
+    <!--android:layout_toRightOf="@+id/timingAdvance"-->
+    <!--android:text="@string/load" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/absEngLoad"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/vinNo"-->
+    <!--android:layout_toEndOf="@+id/engineLoad"-->
+    <!--android:layout_toRightOf="@+id/engineLoad"-->
+    <!--android:text="@string/absLoad" />-->
+
+    <!--&lt;!&ndash; ==================== more commands for testing ====================== &ndash;&gt;-->
+
+
+    <!--<Button-->
+    <!--android:id="@+id/maf"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/rpm"-->
+    <!--android:text="@string/maf" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/lambda"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/rpm"-->
+    <!--android:layout_toEndOf="@+id/maf"-->
+    <!--android:layout_toRightOf="@+id/maf"-->
+    <!--android:text="@string/lambda" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/fuelType"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/rpm"-->
+    <!--android:layout_toEndOf="@+id/lambda"-->
+    <!--android:layout_toRightOf="@+id/lambda"-->
+    <!--android:text="@string/fuelType" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/fuelLevel"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/rpm"-->
+    <!--android:layout_toEndOf="@+id/fuelType"-->
+    <!--android:layout_toRightOf="@+id/fuelType"-->
+    <!--android:text="@string/fuelLevel" />-->
+
+    <!--&lt;!&ndash;====================================================&ndash;&gt;-->
+
+
+    <!--<Button-->
+    <!--android:id="@+id/vehicleSpeed"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/maf"-->
+    <!--android:text="@string/vehicleSpeed" />-->
+
+    <!--====================================================-->
+
+    <Button
+        android:id="@+id/service"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/result_text2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/service" />
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/service"-->
+    <!--android:text="Test functions"-->
+    <!--android:textColor="@color/colorPrimary" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_below="@id/service"-->
+    <!--android:paddingBottom="50dp">-->
+
+    <Button
+        android:id="@+id/sendLog"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/logs" />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/service"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/test" />
+
+
+    <!--<Button-->
+    <!--android:id="@+id/accelerator"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/accelerator" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/location"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/location" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/vinNo"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/getVinNo" />-->
+
+<!--</LinearLayout>&lt;!&ndash;<Button&ndash;&gt;&lt;!&ndash;android:id="@+id/test"&ndash;&gt;&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;&lt;!&ndash;android:layout_below="@id/service"&ndash;&gt;&lt;!&ndash;android:text="@string/test" />&ndash;&gt;-->
+
+    <!--<ListView--><!--android:id="@+id/wifi_networks_listView"--><!--android:layout_width="match_parent"--><!--android:layout_height="200dp"--><!--android:layout_alignParentBottom="true"--><!--android:background="@color/colorPrimary" />-->
+    </RelativeLayout>
